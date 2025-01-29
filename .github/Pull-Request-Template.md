@@ -8,7 +8,7 @@
 
 # Essentials
 Please ensure before submitting this PR:
-- [ ]   I have followed the code style guidelines for this project.
+- [ ] I have followed the code style guidelines for this project.
 - [ ] I have added unit/integration tests (if applicable).
 - [ ] I have updated relevant documentation (if applicable).
 - [ ] My code has been reviewed and tested locally.
