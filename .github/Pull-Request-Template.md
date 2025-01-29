@@ -1,15 +1,19 @@
 # Description
 
-[ Add description here ]
+- [x] Bug fix
+- [x] New feature
+- [x] Documentation update
+- [x] Refractoring
+- [x] Performance improvement
+- [x] Scaffolding
 
-# Type of change
+# Essentials
 
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Documentation update
-- [ ] Refractoring
-- [ ] Performance improvement
-- [ ] Scaffolding
+Please ensure before submitting this PR:
+- [x]   I have followed the code style guidelines for this project.
+- [x] I have added unit/integration tests (if applicable).
+- [x] I have updated relevant documentation (if applicable).
+- [x] My code has been reviewed and tested locally.
 
 # Technical Context
 
