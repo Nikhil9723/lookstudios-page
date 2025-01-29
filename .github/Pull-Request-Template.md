@@ -27,8 +27,6 @@ Please ensure before submitting this PR:
 3. step 3:-
 
 # Screenshots
-
 [ Add screenshots here regarding the changes that you made in your UI.]
-
 * Before:
 * After:
