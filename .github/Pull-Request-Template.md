@@ -13,7 +13,7 @@
 
 # Technical Context
 
-[ Add relevant technical details, context, or background for the change. ]
+[ Add relevant technical details, context, or background for the change. ] <br/>
 [ Mention any tickets, designs, or related PRs that are relevant. ]
 
 # Dependencies
