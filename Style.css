@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: o;
+    padding: 0;
 }
 .navbar {
     background-image: url("images/desktop/Nav-background.jpg");
@@ -26,10 +26,7 @@ body {
     font-style: normal;
 }
 
-
 .nav-ele-not-dot{
-
-   
     margin-top: 1rem;
     list-style-type: none;
     display: flex;
@@ -47,10 +44,12 @@ body {
     /* margin-top: 10px; */
     text-align: start;
 }
+
 .nav-link:hover {
     /* text-decoration: underline; */
     border-bottom: 2px solid white;
 }
+
 .alata-regular {
     font-family: "Alata", serif;
     font-weight: 400;
@@ -66,6 +65,7 @@ body {
     display: flex;
     justify-content:flex-start ;
   }
+
  .nav-con {
     font-family: "Josefin Sans", serif;
     font-optical-sizing: auto;
@@ -77,6 +77,7 @@ body {
     width: 100%;
     padding:1.3rem 0 1.3rem 2rem;
     font-size: 3.7rem;
+
   }
   .main-style {
     width: 70%;
@@ -90,9 +91,9 @@ body {
     height: 31.3em;
     max-width: 45em;
   }
+
   .img-content {
     position: absolute;
-    /* border: 2px solid black; */
     height: 16.5rem;
     max-width: 27em;
     margin-top: 10rem;
@@ -102,6 +103,7 @@ body {
     padding: 3rem;
    
   }
+
 #img-content-heading {
     font-family: "Josefin Sans", serif;
     font-optical-sizing: auto;
@@ -121,7 +123,6 @@ body {
 }
 
 .ourcreation {
-  /* height: 1.rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -152,8 +153,6 @@ body {
   width: 56%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(11.6rem, 1fr));
-  /* grid-template-columns: minmax(); */
-  /* grid-template-rows: repeat(auto, auto); */
   grid-auto-rows: minmax(15rem, auto);
   column-gap: 2em;
   row-gap: 2em ;
@@ -162,11 +161,13 @@ body {
 .image-card > img {
   width: 14.7em;
 }
+
 .footer {
   margin-top: 10rem;
   background-color: hsl(0, 0%, 0%);
   height: 11rem;
 }
+
 .footer-edit {
   width: 56.8%;
   padding: 2.8em 0 0 22.8em;
@@ -174,6 +175,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .footer-heading {
   font-size: 1.8em;
   font-family: "Alata", serif;
@@ -181,6 +183,7 @@ body {
   font-style: normal;
   color: hsl(0, 0%, 100%);
 }
+
 .footer-ele-ul {
   list-style-type: none;
     display: flex;
@@ -198,6 +201,7 @@ body {
 
   color: white;
 }
+
 .right-msg {
   color: white;
 }
