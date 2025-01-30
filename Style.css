@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: o;
+}
+.navbar {
+    background-image: url("images/desktop/Nav-background.jpg");
+    height:40rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.headers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+.navbar-heading{
+    margin: 1.5rem 0 0 3rem;
+    color:hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Alata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.nav-ele-not-dot{
+
+   
+    margin-top: 1rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+    align-content: flex-start;
+    margin-top: 3rem;
+}
+
+.nav-link{
+    color:hsl(0, 0%, 100%);
+    margin-right:3rem;
+    text-decoration: none;
+    /* margin-top: 10px; */
+    text-align: start;
+}
+.nav-link:hover {
+    /* text-decoration: underline; */
+    border-bottom: 2px solid white;
+}
+.alata-regular {
+    font-family: "Alata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .nav-content {
+    border: 2px solid hsl(0, 0%, 100%);
+    height: 17rem;
+    max-width: 35rem;
+    margin-top: 4rem;
+    margin-left: calc(220vh - 188vh);
+    display: flex;
+    justify-content:flex-start ;
+  }
+ .nav-con {
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 0.5em;
+    color: hsl(0, 0%, 97%);
+    font-size: 2.5rem;
+    width: 100%;
+    padding:1.3rem 0 1.3rem 2rem;
+    font-size: 3.7rem;
+  }
+  .main-style {
+    width: 70%;
+    position: relative;
+    margin: 8rem 0 0 13rem;
+    display: flex;  
+  }
+  
+  #img-style {
+    margin-left: 10em;
+    height: 31.3em;
+    max-width: 45em;
+  }
+  .img-content {
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 16.5rem;
+    max-width: 27em;
+    margin-top: 10rem;
+    margin-left:45rem;
+    background-color: hsl(0, 0%, 100%);
+    align-items: center;
+    padding: 3rem;
+   
+  }
+#img-content-heading {
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: 100;
+    color:hsl(0, 0%, 0%)
+}
+  
+#img-content-second {
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: hsl(0, 0%, 55%);
+}
+
+.ourcreation {
+  /* height: 1.rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 56.1%;
+  margin:13rem 5rem 0 23rem;
+}
+
+.ourcreation-text {
+  font-size: 3rem;
+  font-weight: light;
+}
+
+#btn-see-all {
+  font-family: "Alata", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(0, 1%, 19%);
+    padding-top: 2px;
+    background-color: hsl(0, 0%, 100%);
+    width: 7rem;
+    height: 2rem;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.image-card {
+  margin:0 3rem 0 23rem;
+  width: 56%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11.6rem, 1fr));
+  /* grid-template-columns: minmax(); */
+  /* grid-template-rows: repeat(auto, auto); */
+  grid-auto-rows: minmax(15rem, auto);
+  column-gap: 2em;
+  row-gap: 2em ;
+  justify-content: space-between;
+}
+.image-card > img {
+  width: 14.7em;
+}
+.footer {
+  margin-top: 10rem;
+  background-color: hsl(0, 0%, 0%);
+  height: 11rem;
+}
+.footer-edit {
+  width: 56.8%;
+  padding: 2.8em 0 0 22.8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-heading {
+  font-size: 1.8em;
+  font-family: "Alata", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(0, 0%, 100%);
+}
+.footer-ele-ul {
+  list-style-type: none;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.footer-element {
+  width: 59%;
+  padding: 2.3em 0 0 20.3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+.right-msg {
+  color: white;
+}
